@@ -4,10 +4,30 @@
 
 #ifndef GAME_CONTROLADOR_H
 #define GAME_CONTROLADOR_H
+#include "Tierra.h"
+#include "Tipos.h"
 
+template <typename T>
+T input(string label) {
+    T value;
+    cout << label;
+    cin >> value;
+    cin.clear();
+    cin.ignore(std::numeric_limits<std::streamsize>::max(),'\n');
+    return value;
+}
 
-class Controlador {
-
+class Contrlador {
+    TipoEntero opcion;
+    Tierra tierra;
+    void imprimirControlador();
+    void seleccionarOpcion();
+    void agregarObjeto();
+    void removerObjeto();
+    void dibujarMapa();
+public:
+    Controlador(): opcion{} {}
+    void ejecutar();
 };
 
 
