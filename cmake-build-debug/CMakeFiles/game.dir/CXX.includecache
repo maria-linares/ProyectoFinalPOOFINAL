@@ -6,45 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/rrivas/lab103/ProyectoFinalPOO/Controlador.cpp
-Controlador.h
-/home/rrivas/lab103/ProyectoFinalPOO/Controlador.h
-iostream
--
-string
--
-cstdio
--
-
-/home/rrivas/lab103/ProyectoFinalPOO/Controlador.h
-limits
--
-Tierra.h
-/home/rrivas/lab103/ProyectoFinalPOO/Tierra.h
-Tipos.h
-/home/rrivas/lab103/ProyectoFinalPOO/Tipos.h
-
-/home/rrivas/lab103/ProyectoFinalPOO/Objeto.cpp
-Objeto.h
-/home/rrivas/lab103/ProyectoFinalPOO/Objeto.h
-Tierra.h
-/home/rrivas/lab103/ProyectoFinalPOO/Tierra.h
-
 /home/rrivas/lab103/ProyectoFinalPOO/Objeto.h
 Tipos.h
 /home/rrivas/lab103/ProyectoFinalPOO/Tipos.h
-
-/home/rrivas/lab103/ProyectoFinalPOO/Tierra.cpp
-Tierra.h
-/home/rrivas/lab103/ProyectoFinalPOO/Tierra.h
-string
--
-iomanip
--
-algorithm
--
-Objeto.h
-/home/rrivas/lab103/ProyectoFinalPOO/Objeto.h
 
 /home/rrivas/lab103/ProyectoFinalPOO/Tierra.h
 iostream
@@ -55,8 +19,18 @@ Tipos.h
 /home/rrivas/lab103/ProyectoFinalPOO/Tipos.h
 Objeto.h
 /home/rrivas/lab103/ProyectoFinalPOO/Objeto.h
+SFML/Graphics.hpp
+-
 
 /home/rrivas/lab103/ProyectoFinalPOO/Tipos.h
 string
 -
+
+/home/rrivas/lab103/ProyectoFinalPOO/main.cpp
+iostream
+-
+SFML/Graphics.hpp
+-
+Tierra.h
+/home/rrivas/lab103/ProyectoFinalPOO/Tierra.h
 

@@ -17,5 +17,8 @@ CMakeFiles/game.dir/Tierra.cpp.o: ../Tierra.cpp
 CMakeFiles/game.dir/Tierra.cpp.o: ../Tierra.h
 CMakeFiles/game.dir/Tierra.cpp.o: ../Tipos.h
 
+CMakeFiles/game.dir/main.cpp.o: ../Objeto.h
+CMakeFiles/game.dir/main.cpp.o: ../Tierra.h
+CMakeFiles/game.dir/main.cpp.o: ../Tipos.h
 CMakeFiles/game.dir/main.cpp.o: ../main.cpp
 
