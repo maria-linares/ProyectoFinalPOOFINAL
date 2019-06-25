@@ -4,6 +4,7 @@
 
 int main() {
     Tierra tierrita(400, 600);
+    tierrita.adicionarObjeto(new Objeto("RR", 'R', 10, 10));
     tierrita.dibujarTierra();
     return 0;
 }
