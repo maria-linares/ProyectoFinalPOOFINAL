@@ -6,7 +6,6 @@
 #define GAME_OBJETO_H
 
 #include "Tipos.h"
-#include "Tierra.h"
 
 class Objeto {
 private:

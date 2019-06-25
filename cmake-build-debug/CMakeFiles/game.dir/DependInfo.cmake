@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/utec/Documentos/POO103/ProyectoFinalPOO/Controlador.cpp" "/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles/game.dir/Controlador.cpp.o"
-  "/home/utec/Documentos/POO103/ProyectoFinalPOO/Objeto.cpp" "/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles/game.dir/Objeto.cpp.o"
-  "/home/utec/Documentos/POO103/ProyectoFinalPOO/Tierra.cpp" "/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles/game.dir/Tierra.cpp.o"
-  "/home/utec/Documentos/POO103/ProyectoFinalPOO/main.cpp" "/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles/game.dir/main.cpp.o"
+  "/home/rrivas/lab103/ProyectoFinalPOO/Controlador.cpp" "/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles/game.dir/Controlador.cpp.o"
+  "/home/rrivas/lab103/ProyectoFinalPOO/Objeto.cpp" "/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles/game.dir/Objeto.cpp.o"
+  "/home/rrivas/lab103/ProyectoFinalPOO/Tierra.cpp" "/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles/game.dir/Tierra.cpp.o"
+  "/home/rrivas/lab103/ProyectoFinalPOO/main.cpp" "/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles/game.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

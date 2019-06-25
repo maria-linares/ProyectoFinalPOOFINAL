@@ -4,6 +4,9 @@
 
 #ifndef GAME_CONTROLADOR_H
 #define GAME_CONTROLADOR_H
+
+#include <limits>
+
 #include "Tierra.h"
 #include "Tipos.h"
 
@@ -18,7 +21,7 @@ T input(string label) {
     return value;
 }
 
-class Contrlador {
+class Controlador {
     TipoEntero opcion;
     Tierra tierra;
     void imprimirControlador();

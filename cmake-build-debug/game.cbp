@@ -5,31 +5,31 @@
 		<Option title="game"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\usr\share\SFML\;CMake Files\..\..\..\..\..\usr\share\SFML\cmake\;CMake Files\..\..\..\..\..\usr\share\SFML\cmake\Modules\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\SFML\;CMake Files\..\..\..\..\usr\share\SFML\cmake\;CMake Files\..\..\..\..\usr\share\SFML\cmake\Modules\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug"/>
+				<Option working_dir="/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug"/>
+				<Option working_dir="/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="game">
-				<Option output="/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/game" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug"/>
+				<Option output="/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 game"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 game"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="game/fast">
-				<Option output="/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/game" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug"/>
+				<Option output="/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,52 +67,52 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 game/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 game/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug"/>
+				<Option working_dir="/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/utec/Documentos/POO103/ProyectoFinalPOO/Controlador.cpp">
+		<Unit filename="/home/rrivas/lab103/ProyectoFinalPOO/Controlador.cpp">
 			<Option target="game"/>
 		</Unit>
-		<Unit filename="/home/utec/Documentos/POO103/ProyectoFinalPOO/Controlador.h">
+		<Unit filename="/home/rrivas/lab103/ProyectoFinalPOO/Controlador.h">
 			<Option target="game"/>
 		</Unit>
-		<Unit filename="/home/utec/Documentos/POO103/ProyectoFinalPOO/Objeto.cpp">
+		<Unit filename="/home/rrivas/lab103/ProyectoFinalPOO/Objeto.cpp">
 			<Option target="game"/>
 		</Unit>
-		<Unit filename="/home/utec/Documentos/POO103/ProyectoFinalPOO/Objeto.h">
+		<Unit filename="/home/rrivas/lab103/ProyectoFinalPOO/Objeto.h">
 			<Option target="game"/>
 		</Unit>
-		<Unit filename="/home/utec/Documentos/POO103/ProyectoFinalPOO/Tierra.cpp">
+		<Unit filename="/home/rrivas/lab103/ProyectoFinalPOO/Tierra.cpp">
 			<Option target="game"/>
 		</Unit>
-		<Unit filename="/home/utec/Documentos/POO103/ProyectoFinalPOO/Tierra.h">
+		<Unit filename="/home/rrivas/lab103/ProyectoFinalPOO/Tierra.h">
 			<Option target="game"/>
 		</Unit>
-		<Unit filename="/home/utec/Documentos/POO103/ProyectoFinalPOO/Tipos.h">
+		<Unit filename="/home/rrivas/lab103/ProyectoFinalPOO/Tipos.h">
 			<Option target="game"/>
 		</Unit>
-		<Unit filename="/home/utec/Documentos/POO103/ProyectoFinalPOO/main.cpp">
+		<Unit filename="/home/rrivas/lab103/ProyectoFinalPOO/main.cpp">
 			<Option target="game"/>
 		</Unit>
-		<Unit filename="/home/utec/Documentos/POO103/ProyectoFinalPOO/CMakeLists.txt">
+		<Unit filename="/home/rrivas/lab103/ProyectoFinalPOO/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/utec/Documentos/POO103/ProyectoFinalPOO/../../../../../usr/share/SFML/cmake/Modules/FindSFML.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\SFML\cmake\Modules\"/>
+		<Unit filename="/home/rrivas/lab103/ProyectoFinalPOO/../../../../usr/share/SFML/cmake/Modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\SFML\cmake\Modules\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

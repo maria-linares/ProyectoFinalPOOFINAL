@@ -78,3 +78,7 @@ TipoEntero Tierra::getAltura() {
 TipoEntero Tierra::getAncho(){
     return plano[0].size();
 }
+
+TipoEntero Tierra::getCantidadObjectos() {
+    return objetos.size();
+}

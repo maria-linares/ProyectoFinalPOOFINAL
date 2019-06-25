@@ -46,10 +46,10 @@ RM = /snap/clion/73/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/utec/Documentos/POO103/ProyectoFinalPOO
+CMAKE_SOURCE_DIR = /home/rrivas/lab103/ProyectoFinalPOO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug
+CMAKE_BINARY_DIR = /home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/game.dir/depend.make
@@ -62,55 +62,55 @@ include CMakeFiles/game.dir/flags.make
 
 CMakeFiles/game.dir/main.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/main.cpp.o -c /home/utec/Documentos/POO103/ProyectoFinalPOO/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/main.cpp.o -c /home/rrivas/lab103/ProyectoFinalPOO/main.cpp
 
 CMakeFiles/game.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/utec/Documentos/POO103/ProyectoFinalPOO/main.cpp > CMakeFiles/game.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rrivas/lab103/ProyectoFinalPOO/main.cpp > CMakeFiles/game.dir/main.cpp.i
 
 CMakeFiles/game.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/utec/Documentos/POO103/ProyectoFinalPOO/main.cpp -o CMakeFiles/game.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rrivas/lab103/ProyectoFinalPOO/main.cpp -o CMakeFiles/game.dir/main.cpp.s
 
 CMakeFiles/game.dir/Controlador.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/Controlador.cpp.o: ../Controlador.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/Controlador.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Controlador.cpp.o -c /home/utec/Documentos/POO103/ProyectoFinalPOO/Controlador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/Controlador.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Controlador.cpp.o -c /home/rrivas/lab103/ProyectoFinalPOO/Controlador.cpp
 
 CMakeFiles/game.dir/Controlador.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/Controlador.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/utec/Documentos/POO103/ProyectoFinalPOO/Controlador.cpp > CMakeFiles/game.dir/Controlador.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rrivas/lab103/ProyectoFinalPOO/Controlador.cpp > CMakeFiles/game.dir/Controlador.cpp.i
 
 CMakeFiles/game.dir/Controlador.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/Controlador.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/utec/Documentos/POO103/ProyectoFinalPOO/Controlador.cpp -o CMakeFiles/game.dir/Controlador.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rrivas/lab103/ProyectoFinalPOO/Controlador.cpp -o CMakeFiles/game.dir/Controlador.cpp.s
 
 CMakeFiles/game.dir/Tierra.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/Tierra.cpp.o: ../Tierra.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/Tierra.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Tierra.cpp.o -c /home/utec/Documentos/POO103/ProyectoFinalPOO/Tierra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/Tierra.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Tierra.cpp.o -c /home/rrivas/lab103/ProyectoFinalPOO/Tierra.cpp
 
 CMakeFiles/game.dir/Tierra.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/Tierra.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/utec/Documentos/POO103/ProyectoFinalPOO/Tierra.cpp > CMakeFiles/game.dir/Tierra.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rrivas/lab103/ProyectoFinalPOO/Tierra.cpp > CMakeFiles/game.dir/Tierra.cpp.i
 
 CMakeFiles/game.dir/Tierra.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/Tierra.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/utec/Documentos/POO103/ProyectoFinalPOO/Tierra.cpp -o CMakeFiles/game.dir/Tierra.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rrivas/lab103/ProyectoFinalPOO/Tierra.cpp -o CMakeFiles/game.dir/Tierra.cpp.s
 
 CMakeFiles/game.dir/Objeto.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/Objeto.cpp.o: ../Objeto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/Objeto.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Objeto.cpp.o -c /home/utec/Documentos/POO103/ProyectoFinalPOO/Objeto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/Objeto.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Objeto.cpp.o -c /home/rrivas/lab103/ProyectoFinalPOO/Objeto.cpp
 
 CMakeFiles/game.dir/Objeto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/Objeto.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/utec/Documentos/POO103/ProyectoFinalPOO/Objeto.cpp > CMakeFiles/game.dir/Objeto.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rrivas/lab103/ProyectoFinalPOO/Objeto.cpp > CMakeFiles/game.dir/Objeto.cpp.i
 
 CMakeFiles/game.dir/Objeto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/Objeto.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/utec/Documentos/POO103/ProyectoFinalPOO/Objeto.cpp -o CMakeFiles/game.dir/Objeto.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rrivas/lab103/ProyectoFinalPOO/Objeto.cpp -o CMakeFiles/game.dir/Objeto.cpp.s
 
 # Object files for target game
 game_OBJECTS = \
@@ -131,7 +131,7 @@ game: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so
 game: /usr/lib/x86_64-linux-gnu/libsfml-window.so
 game: /usr/lib/x86_64-linux-gnu/libsfml-system.so
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -144,6 +144,6 @@ CMakeFiles/game.dir/clean:
 .PHONY : CMakeFiles/game.dir/clean
 
 CMakeFiles/game.dir/depend:
-	cd /home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/utec/Documentos/POO103/ProyectoFinalPOO /home/utec/Documentos/POO103/ProyectoFinalPOO /home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug /home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug /home/utec/Documentos/POO103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles/game.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rrivas/lab103/ProyectoFinalPOO /home/rrivas/lab103/ProyectoFinalPOO /home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug /home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug /home/rrivas/lab103/ProyectoFinalPOO/cmake-build-debug/CMakeFiles/game.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/game.dir/depend
 

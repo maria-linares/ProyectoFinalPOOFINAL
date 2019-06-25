@@ -2,11 +2,16 @@
 // Created by utec on 21/06/19.
 //
 
+#ifndef GAME_TIERRA_H
+#define GAME_TIERRA_H
+
 #include <iostream>
 #include <vector>
 #include "Tipos.h"
 #include "Objeto.h"
+
 using namespace std;
+
 // Valores constantes
 const TipoEntero ALTURA = 21;
 const TipoEntero ANCHO  = 21;
@@ -31,5 +36,5 @@ public:
 };
 
 
-#endif //AGREGACION_OBJETO_H
+#endif
 
