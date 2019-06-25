@@ -6,6 +6,7 @@
 #include <iostream>
 #include <string>
 #include <cstdio>
+
 using namespace std;
 enum class Opciones { Agregar=1, Remover, Mostrar}; // se usa un tipo enumerado para indicar las opciones
 

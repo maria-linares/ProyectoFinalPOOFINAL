@@ -3,6 +3,8 @@
 //
 
 #include "Objeto.h"
+#include "Tierra.h"
+
 
 Objeto::Objeto(): color{}, posX{}, posY{}  {}
 

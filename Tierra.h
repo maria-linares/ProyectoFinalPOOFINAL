@@ -2,26 +2,34 @@
 // Created by utec on 21/06/19.
 //
 
+#include <iostream>
+#include <vector>
 #include "Tipos.h"
+#include "Objeto.h"
 using namespace std;
-class Objeto {
+// Valores constantes
+const TipoEntero ALTURA = 21;
+const TipoEntero ANCHO  = 21;
+const TipoCaracter COLOR ='.';
+
+class Tierra {
 private:
-    string nombre;
-    TipoCaracter color;
-    TipoEntero posX;
-    TipoEntero posY;
+    vector<vector<char>> plano;
+    vector<Objeto*> objetos;
 public:
-    Objeto();
-    Objeto(const TipoString& nombre, TipoCaracter color,
-           TipoEntero posX, TipoEntero posY);
-    virtual ~Objeto();
-    void setNombre(const TipoString& nombre);
-    string getNombre();
-    TipoEntero getPosX();
-    TipoEntero getPosY();
-    char getColor();
-    void moverse(TipoEntero x, TipoEntero y);
-    string mostrarPosicion();
+    Tierra();
+    Tierra(TipoEntero altura, TipoEntero ancho);
+    virtual ~Tierra();
+    void adicionarObjeto(Objeto* objeto);
+    Objeto* removerObjeto(string& nombre);
+    void imprimirObjetos();
+    TipoEntero getAltura();
+    TipoEntero getAncho();
+    TipoEntero getCantidadObjectos();
+    void dibujarTierra();
+    void actualizarTierra();
 };
+
+
 #endif //AGREGACION_OBJETO_H
 

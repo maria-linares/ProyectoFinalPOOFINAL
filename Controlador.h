@@ -7,6 +7,7 @@
 #include "Tierra.h"
 #include "Tipos.h"
 
+using namespace std;
 template <typename T>
 T input(string label) {
     T value;

@@ -5,6 +5,8 @@
 #include <string>
 #include <iomanip>
 #include <algorithm>
+#include "Objeto.h"
+
 using namespace std;
 Tierra::Tierra() {
     plano.resize(ALTURA);

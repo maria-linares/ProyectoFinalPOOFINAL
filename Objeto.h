@@ -5,6 +5,8 @@
 #ifndef GAME_OBJETO_H
 #define GAME_OBJETO_H
 
+#include "Tipos.h"
+#include "Tierra.h"
 
 class Objeto {
 private:
