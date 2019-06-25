@@ -1,3 +1,0 @@
-/home/utec/Documentos/PFinal/ProyectoFinalPOO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/utec/Documentos/PFinal/ProyectoFinalPOO/cmake-build-debug/CMakeFiles/game.dir
-/home/utec/Documentos/PFinal/ProyectoFinalPOO/cmake-build-debug/CMakeFiles/edit_cache.dir
