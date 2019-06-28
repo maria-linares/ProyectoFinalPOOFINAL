@@ -127,9 +127,9 @@ game.exe: CMakeFiles/game.dir/Controlador.cpp.obj
 game.exe: CMakeFiles/game.dir/Tierra.cpp.obj
 game.exe: CMakeFiles/game.dir/Objeto.cpp.obj
 game.exe: CMakeFiles/game.dir/build.make
-game.exe: ../SFML-2.5.1/lib/libsfml-graphics-d.a
-game.exe: ../SFML-2.5.1/lib/libsfml-window-d.a
-game.exe: ../SFML-2.5.1/lib/libsfml-system-d.a
+game.exe: C:/Users/Cesar\ Bracamonte/CLionProjects/librerias/SFML-2.5.1/lib/libsfml-graphics-d.a
+game.exe: C:/Users/Cesar\ Bracamonte/CLionProjects/librerias/SFML-2.5.1/lib/libsfml-window-d.a
+game.exe: C:/Users/Cesar\ Bracamonte/CLionProjects/librerias/SFML-2.5.1/lib/libsfml-system-d.a
 game.exe: CMakeFiles/game.dir/linklibs.rsp
 game.exe: CMakeFiles/game.dir/objects1.rsp
 game.exe: CMakeFiles/game.dir/link.txt

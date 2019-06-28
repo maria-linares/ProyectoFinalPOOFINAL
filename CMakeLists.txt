@@ -5,9 +5,9 @@ project(game)
 set(SOURCE main.cpp Tipos.h Controlador.cpp Controlador.h Tierra.cpp Tierra.h Objeto.cpp Objeto.h)
 set(CMAKE_CXX_STANDARD 14)
 
-set(SFML_INCLUDE_DIR "SFML-2.5.1/include")
-set(SFML_LIBRARY_DIR "SFML-2.5.1/lib")
-set(SFML_DIR "SFML-2.5.1/lib/cmake/SFML")
+set(SFML_INCLUDE_DIR "C:/Users/Cesar Bracamonte/CLionProjects/librerias/SFML-2.5.1/include")
+set(SFML_LIBRARY_DIR "C:/Users/Cesar Bracamonte/CLionProjects/librerias/SFML-2.5.1/lib")
+set(SFML_DIR "C:/Users/Cesar Bracamonte/CLionProjects/librerias/SFML-2.5.1/lib/cmake/SFML")
 
 link_directories(SFML_LIBRARY_DIR)
 include_directories(SFML_INCLUDE_DIR)

@@ -32,16 +32,16 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.13/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.13/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
-  "../SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake"
-  "../SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake"
-  "../SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake"
-  "../SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-debug.cmake"
-  "../SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake"
-  "../SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake"
   "CMakeFiles/3.13.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.13.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.13.4/CMakeRCCompiler.cmake"
   "CMakeFiles/3.13.4/CMakeSystem.cmake"
+  "C:/Users/Cesar Bracamonte/CLionProjects/librerias/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake"
+  "C:/Users/Cesar Bracamonte/CLionProjects/librerias/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake"
+  "C:/Users/Cesar Bracamonte/CLionProjects/librerias/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake"
+  "C:/Users/Cesar Bracamonte/CLionProjects/librerias/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-debug.cmake"
+  "C:/Users/Cesar Bracamonte/CLionProjects/librerias/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake"
+  "C:/Users/Cesar Bracamonte/CLionProjects/librerias/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake"
   )
 
 # The corresponding makefile is:
