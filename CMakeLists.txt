@@ -1,24 +1,46 @@
-
 cmake_minimum_required(VERSION 3.13)
-project(game)
+project(ProyectoFinalPOO)
 
-set(SOURCE main.cpp Tipos.h Controlador.cpp Controlador.h Tierra.cpp Tierra.h Objeto.cpp Objeto.h)
+# Archivos del Projecto
+set(PROJECT_SOURCE
+        main.cpp
+        Tipos.h
+        Menu.cpp Menu.h
+        Tierra.cpp Tierra.h
+        Objeto.cpp Objeto.h
+        Hotel.cpp Hotel.h
+        Museo.cpp Museo.h
+        Restaurant.cpp Restaurant.h
+    )
+
+# C++ Standard se sugiere 11 � 14
 set(CMAKE_CXX_STANDARD 14)
 
-set(SFML_INCLUDE_DIR "C:/Users/Cesar Bracamonte/CLionProjects/librerias/SFML-2.5.1/include")
-set(SFML_LIBRARY_DIR "C:/Users/Cesar Bracamonte/CLionProjects/librerias/SFML-2.5.1/lib")
-set(SFML_DIR "C:/Users/Cesar Bracamonte/CLionProjects/librerias/SFML-2.5.1/lib/cmake/SFML")
+if (WIN32)
+    # Valido solo para WINDOWS en LINUX o OSX no debe de cambiarse
+    # Modificar al folder donde se encuentre la libreria SFML instalada en su PC
+    set(SFML_ROOT "/Users/majolive/Documents/POO/ProyectoFinalPOO/SFML-2.5.1") # <--------- Modificar SOLO AQUI
 
-link_directories(SFML_LIBRARY_DIR)
-include_directories(SFML_INCLUDE_DIR)
-
-find_package(SFML 2.5.1 COMPONENTS system window graphics network audio)
-
-if(SFML_FOUND)
-    message(STATUS "SFML_INCLUDE_DIR: ${SFML_INCLUDE_DIR}")
-    message(STATUS "SFML_LIBRARIES: ${SFML_LIBRARIES}")
-    message(STATUS "SFML_VERSION: ${SFML_VERSION}")
+    set(SFML_INCLUDE_DIR "${SFML_ROOT}/include")
+    set(SFML_LIBRARY_DIR "${SFML_ROOT}/lib")
+    set(SFML_DIR "${SFML_ROOT}/lib/cmake/SFML")
+    link_directories(SFML_LIBRARY_DIR)
+    include_directories(SFML_INCLUDE_DIR)
 endif()
 
-add_executable(game main.cpp Tipos.h Controlador.cpp Controlador.h Tierra.cpp Tierra.h Objeto.cpp Objeto.h)
-target_link_libraries (game sfml-graphics sfml-window sfml-system)
+# Instrucciones para generar el ejecutable
+add_executable(${PROJECT_NAME} ${PROJECT_SOURCE})
+
+set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}" ${CMAKE_MODULE_PATH})
+find_package(SFML 2.5.1
+        COMPONENTS
+            system
+            window
+            graphics
+        REQUIRED)
+
+target_link_libraries (${PROJECT_NAME}
+        sfml-system
+        sfml-window
+        sfml-graphics
+        )

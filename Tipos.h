@@ -7,9 +7,12 @@
 
 #include <string>
 using namespace std;
+
 // Definiendo alias
 using TipoEntero = int;
 using TipoCaracter = char;
 using TipoString = string;
+
+using TipoDouble =  double;
 
 #endif

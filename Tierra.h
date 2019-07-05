@@ -9,6 +9,9 @@
 #include <vector>
 #include "Tipos.h"
 #include "Objeto.h"
+#include "Hotel.h"
+#include "Restaurant.h"
+#include "Museo.h"
 #include <SFML/Graphics.hpp>
 
 using namespace std;
@@ -20,8 +23,12 @@ const TipoCaracter COLOR ='.';
 
 class Tierra {
 private:
+    int altura;
+    int ancho;
     sf::RenderWindow* plano;
     vector<Objeto*> objetos;
+    void actualizarTierra();
+    void capturarEventos();
 public:
     Tierra();
     Tierra(TipoEntero altura, TipoEntero ancho);
@@ -33,9 +40,10 @@ public:
     TipoEntero getAncho();
     TipoEntero getCantidadObjectos();
     void dibujarTierra();
-    void actualizarTierra();
+    void MasCerca(TipoEntero x, TipoEntero y);
+    void UbicarMejoresTipos();
+    void Ubicar3max();
 };
 
 
 #endif
-

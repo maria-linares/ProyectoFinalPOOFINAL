@@ -13,11 +13,13 @@ private:
     TipoCaracter  color;
     TipoEntero    posX;
     TipoEntero    posY;
+    TipoString Direccion;
+    TipoEntero Calificacion;
 public:
-    Objeto();
+    Objeto(){};
     Objeto(const TipoString& nombre, TipoCaracter color,
-           TipoEntero posX, TipoEntero posY);
-    virtual ~Objeto();
+           TipoEntero posX, TipoEntero posY, const TipoString& Direccion, TipoEntero Calificacion);
+    virtual ~Objeto(){};
     void setNombre(const TipoString& nombre);
     string     getNombre();
     TipoEntero getPosX();
@@ -25,6 +27,8 @@ public:
     char getColor();
     void moverse(TipoEntero x, TipoEntero y);
     string mostrarPosicion();
+    string mostrarDireccion();
+    int getCalificacion();
 };
 
 
